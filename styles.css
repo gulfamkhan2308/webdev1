@@ -31,20 +31,29 @@ border: 1px solid rgba(214, 76, 76, 0.71); */
 
 
 }
-.content{/* From https://css.glass */
-    
-}
-.table{
+.table-container {
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  .table {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #dddddd; /* Outer border for the table */
+    text-align: left;
   }
-
   th, td {
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word; /* Ensures long text wraps */
+  }
+  
+
+  /* th, td {
     border: 1px solid #dddddd; /* Borders for table cells */
     text-align: left;
     padding: 8px;
-  }
+  } */
 
   tr:nth-child(even) {
     background-color: #f2f2f2; /* Alternate row background color */
