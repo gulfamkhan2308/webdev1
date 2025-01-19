@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(163, 197, 180);
+    color: rgb(72, 29, 190);
+    padding: 10px;
+}
+.header{
+    text-align: center;;
+    background-color: rgb(43, 240, 112);
+    color: rgb(72, 29, 190);
+    padding: 10px; 
+    border-radius: 30px;
+    
+   /* From https://css.glass
+background: rgba(214, 76, 76, 0.61);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+border: 1px solid rgba(214, 76, 76, 0.71); */
+}
+.h1{
+    background-color: rgb(43, 240, 112);
+    color: rgb(72, 29, 190);
+    padding: 10px;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 100px;
+    border: 5px solid rgb(205, 57, 131);
+    box-shadow: 0 0 10px 10px rgb(193, 88, 231);
+
+
+}
+.content{/* From https://css.glass */
+    
+}
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd; /* Outer border for the table */
+  }
+
+  th, td {
+    border: 1px solid #dddddd; /* Borders for table cells */
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+
+}
